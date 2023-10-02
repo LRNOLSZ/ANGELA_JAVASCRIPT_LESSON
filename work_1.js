@@ -8,5 +8,8 @@ function life_in_weeks(age){
     console.log('you have '+ years_remaining +' years remaining,' + months_remaining + 
                 ' months remaining' + week_remaining + ' weeks remaining and '+ days_remining 
                 + 'days remaining.')
-
 }
+                
+
+var age = prompt('what is your age');
+life_in_weeks(age);
